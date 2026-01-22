@@ -2,6 +2,8 @@
 
 AI-powered travel planning platform that helps you discover destinations, plan itineraries, and book your perfect trip.
 
+🌐 **Live Demo**: [https://jet-set-go-ai.vercel.app](https://jet-set-go-ai.vercel.app)
+
 ![JetSetGo](frontend/public/jetsetgo_logo.png)
 
 ## Features
@@ -58,7 +60,7 @@ GEMINI_API_KEY=your_gemini_api_key
 # Server
 PORT=5000
 NODE_ENV=development
-CORS_ORIGINS=http://localhost:3000
+CORS_ORIGINS=http://localhost:3000,https://jet-set-go-ai.vercel.app
 ```
 
 #### Frontend (`frontend/.env.local`)
@@ -118,6 +120,8 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 
 ### Frontend (Vercel)
 
+✅ **Already Deployed**: [https://jet-set-go-ai.vercel.app](https://jet-set-go-ai.vercel.app)
+
 1. Push your code to GitHub
 2. Import project in [Vercel](https://vercel.com)
 3. Add environment variable:
@@ -136,7 +140,7 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
    - `GEMINI_API_KEY`
    - `PORT` (usually auto-set)
    - `NODE_ENV=production`
-   - `CORS_ORIGINS` = Your frontend URL (e.g., `https://jetsetgo.vercel.app`)
+   - `CORS_ORIGINS` = Your frontend URL (e.g., `https://jet-set-go-ai.vercel.app`)
 4. Deploy
 
 ## Project Structure
