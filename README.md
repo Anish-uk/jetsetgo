@@ -130,6 +130,8 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 
 ### Backend (Railway/Render/Fly.io)
 
+✅ **Already Deployed**: [https://jetsetgo-zp97.onrender.com](https://jetsetgo-zp97.onrender.com)
+
 1. Push your code to GitHub
 2. Create new project on [Railway](https://railway.app), [Render](https://render.com), or [Fly.io](https://fly.io)
 3. Add environment variables:
@@ -140,7 +142,7 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
    - `GEMINI_API_KEY`
    - `PORT` (usually auto-set)
    - `NODE_ENV=production`
-   - `CORS_ORIGINS` = Your frontend URL (e.g., `https://jet-set-go-ai.vercel.app`)
+   - `CORS_ORIGINS=https://jet-set-go-ai.vercel.app`
 4. Deploy
 
 ## Project Structure
